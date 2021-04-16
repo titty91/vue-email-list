@@ -29,3 +29,12 @@ function getEmail(){ //ne richiede solo 1
 }
 
 init();
+
+
+// versione con Vue
+// axios.get('https://flynn.boolean.cdareers/exercises/api/random/mail')
+//   .then(data => {
+//     const email = data.data.response;
+//       this.emails.push(email);
+//   })
+//   .catch(() => console.log('error'));
